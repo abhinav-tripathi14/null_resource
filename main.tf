@@ -3,6 +3,13 @@ provider "local" {}
 provider "kubernetes" {}
 provider "null" {}
 resource "null_resource" "test"{}
+terraform {
+          required_providers {
+          argocd= { 
+            source = "argoproj-labs/argocd" 
+          } 
+          } 
+          } 
 resource "argocd_gpg_key" "this" {
   public_key = <<EOF
 -----BEGIN PGP PUBLIC KEY BLOCK-----
