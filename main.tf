@@ -1,7 +1,7 @@
+provider "argoproj-labs/terraform-provider-argocd" {}
 provider "local" {}
 provider "kubernetes" {}
 provider "null" {}
-provider "argoproj-labs/argocd" {}
 resource "null_resource" "test"{}
 resource "argocd_gpg_key" "this" {
   public_key = <<EOF
