@@ -6,7 +6,6 @@ resource "null_resource" "test"{}
 resource "argocd_gpg_key" "this" {
   public_key = <<EOF
 -----BEGIN PGP PUBLIC KEY BLOCK-----
-
 mQINBGSJdlcBEACnza+KvWLyKWUHJPhgs//HRL0EEmA/EcFKioBlrgPNYf/O7hNg
 KT3NDaNrD26pr+bOb4mfaqNNS9no8b9EP3C7Co3Wf2d4xpJ5/hlpIm3V652S5daZ
 I7ylVT8QOrhaqEnHH2hEcOfDaqjrYfrx3qiI8v7DmV6jfGi1tDUUgfJwiOyZk4q1
