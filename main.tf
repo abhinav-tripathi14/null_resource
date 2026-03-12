@@ -1,2 +1,3 @@
 provider "local" {}
-provider "kuberneted" {}
+provider "kubernetes" {}
+provider "null"
