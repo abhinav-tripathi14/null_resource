@@ -1,4 +1,4 @@
-provider "argoproj-labs/terraform-provider-argocd" {}
+provider "terraform-provider-argocd" {}
 provider "local" {}
 provider "kubernetes" {}
 provider "null" {}
