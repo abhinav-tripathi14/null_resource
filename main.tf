@@ -4,5 +4,5 @@ provider "null" {}
 resource "null_resource" "test"{}
 
 resource "null_resource" "test"{
-count = 3
+count = 4
 }
